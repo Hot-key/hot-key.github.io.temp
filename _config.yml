@@ -1,4 +1,6 @@
 # The Site Configuration
+# Import the theme
+theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
@@ -44,7 +46,7 @@ social:
     - https://hotkey.sh/editor      # change to your twitter homepage
     - https://stackoverflow.com/users/8409624/hotkey
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: google_meta_tag_verification # fill in to your verification string
 
 # ↑ --------------------------
 
@@ -74,7 +76,7 @@ theme_mode: dark  # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: '/'
+img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 avatar: 'https://avatars.githubusercontent.com/u/20187669'
