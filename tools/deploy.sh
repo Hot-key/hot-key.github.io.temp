@@ -72,6 +72,10 @@ resume_site_dir() {
   fi
 }
 
+move_public() {
+  mv "./public" "$SITE_DIR"
+}
+
 setup_gh() {
   if [[ -z $(git branch -av | grep "$PAGES_BRANCH") ]]; then
     _no_pages_branch=true
@@ -121,6 +125,7 @@ main() {
   build
   #test
   resume_site_dir
+  move_public
 
   if $_opt_dry_run; then
     exit 0
