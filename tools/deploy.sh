@@ -73,8 +73,7 @@ resume_site_dir() {
 }
 
 move_public() {
-  mv "$SITE_DIR$_baseurl/public/next" "$SITE_DIR$_baseurl/public/_next"
-  mv "$SITE_DIR$_baseurl/public"/* "$SITE_DIR$_baseurl/"
+  mv "public"/* "$SITE_DIR$_baseurl/"
 }
 
 setup_gh() {
