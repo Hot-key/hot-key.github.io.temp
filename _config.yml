@@ -1,5 +1,4 @@
 # The Site Configuration
-
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -10,46 +9,44 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Hotkey            # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: hotkey's blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  .net, js/ts
+  serverless, supersocket, gRPC
+  react, next, vue
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://hotkey.sh'
 
 github:
-  username: github_username             # change to your github username
+  username: Hot-key             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: Hot_key_            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Hotkey
+  email: hotkey.sh@gmail.con             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/Hot-key       # change to your github homepage
+    - https://hotkey.sh/editor      # change to your twitter homepage
+    - https://stackoverflow.com/users/8409624/hotkey
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: google_meta_tag_verification # fill in to your verification string
 
 # ↑ --------------------------
 
@@ -72,17 +69,17 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'https://avatars.githubusercontent.com/u/20187669'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -90,12 +87,9 @@ toc: true
 comments:
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
-  disqus:
-    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
   utterances:
-    repo:         # <gh-username>/<repo>
-    issue_term:   # < url | pathname | title | ...>
+    repo: Hot-key/hot-key.github.io        # <gh-username>/<repo>
+    issue_term: pathname  # < url | pathname | title | ...>
 
 paginate: 10
 
