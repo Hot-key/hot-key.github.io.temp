@@ -73,6 +73,12 @@ resume_site_dir() {
 }
 
 move_public() {
+  pwd
+  ls
+  echo $SITE_DIR$_baseurl
+  ls $SITE_DIR$_baseurl
+  echo $SITE_DIR$_baseurl/public
+  ls $SITE_DIR$_baseurl/public
   mv "$SITE_DIR$_baseurl/public/*" "$SITE_DIR$_baseurl/"
 }
 
