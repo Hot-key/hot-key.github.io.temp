@@ -73,7 +73,7 @@ resume_site_dir() {
 }
 
 move_public() {
-  mv "./public" "$SITE_DIR"
+  mv "public" "$SITE_DIR$_baseurl"
 }
 
 setup_gh() {
@@ -124,8 +124,8 @@ main() {
   init
   build
   #test
-  resume_site_dir
   move_public
+  resume_site_dir
 
   if $_opt_dry_run; then
     exit 0
