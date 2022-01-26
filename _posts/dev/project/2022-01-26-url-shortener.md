@@ -243,6 +243,19 @@ class HasuraInputData {
 </details>
 
 ## 프론트 만들기
+
+프론트는 next.js 를 사용하여 간단하게 만들었다.
+
+프론트부분은 특별한 설명이 필요없을 정도로 간단하게 위에서 만든 서버에 요청을 보내고  
+결과값을 보여주는게 끝이다.
+
+## 완성한 결과물
+
+완성한 결과물이다.  
+단축할 주소를 입력하고 만들기 버튼을 누르면 짧은 주소가 나온다
+
+[https://hotkey.sh/short](https://hotkey.sh/short)
+
 ![web](/assets/img/post/dev/project/url-shortener/web.png)
 
 
@@ -250,5 +263,3 @@ class HasuraInputData {
 ## 참고한 자료
 https://aws.amazon.com/ko/blogs/compute/build-a-serverless-private-url-shortener/
 https://stackoverflow.com/questions/36830462/shorten-s3-signed-url
-
-![temp](/assets/img/post/temp.png)
