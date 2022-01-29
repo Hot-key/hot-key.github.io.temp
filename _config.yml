@@ -85,7 +85,7 @@ avatar: 'https://avatars.githubusercontent.com/u/20187669'
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: utterances        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   utterances:
     repo: Hot-key/hot-key.github.io        # <gh-username>/<repo>
